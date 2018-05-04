@@ -16,7 +16,11 @@ import lombok.NoArgsConstructor;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Book {
 	@XmlAttribute
-	private Long id;
+	private Long bookId;
 	@XmlAttribute
 	private String name;
+
+	public Book(String name) {
+		this.name = name;
+	}
 }
