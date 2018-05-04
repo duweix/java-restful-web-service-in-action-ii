@@ -10,7 +10,9 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
+import my.restful.my_first_webapp.annotation.MOVE;
 import my.restful.my_first_webapp.entity.Book;
+import my.restful.my_first_webapp.entity.Books;
 
 @Path("book")
 public interface BookResource {
@@ -29,4 +31,7 @@ public interface BookResource {
 	@Produces(MediaType.APPLICATION_XML)
 	@Consumes(MediaType.APPLICATION_XML)
 	public Book createBook(Book book);
+
+	@MOVE
+	public boolean moveBooks(Books books);
 }

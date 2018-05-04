@@ -4,6 +4,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.util.logging.Logger;
 
 import my.restful.my_first_webapp.entity.Book;
+import my.restful.my_first_webapp.entity.Books;
 
 public class EBookResourceImpl implements BookResource {
 	private static final AtomicLong bookSequence = new AtomicLong();
@@ -28,6 +29,12 @@ public class EBookResourceImpl implements BookResource {
 	public Book createBook(Book book) {
 		book.setBookId(bookSequence.incrementAndGet());
 		return book;
+	}
+
+	@Override
+	public boolean moveBooks(Books books) {
+		// TODO Auto-generated method stub
+		return true;
 	}
 
 }
