@@ -3,7 +3,7 @@ package my.restful.my_first_webapp.app;
 import java.util.HashSet;
 import java.util.Set;
 
-import my.restful.my_first_webapp.MyResource;
+import my.restful.my_first_webapp.resource.MyResource;
 
 //@ApplicationPath("/webapi/*")
 public class AirApplication /* extends Application */ {

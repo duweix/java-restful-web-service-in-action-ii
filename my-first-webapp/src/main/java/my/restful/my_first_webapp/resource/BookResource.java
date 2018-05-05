@@ -1,4 +1,4 @@
-package my.restful.my_first_webapp;
+package my.restful.my_first_webapp.resource;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;

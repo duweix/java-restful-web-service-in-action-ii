@@ -12,8 +12,8 @@ import org.glassfish.jersey.test.JerseyTest;
 import org.junit.Assert;
 import org.junit.Test;
 
-import my.restful.my_first_webapp.EBookResourceImpl;
 import my.restful.my_first_webapp.entity.Book;
+import my.restful.my_first_webapp.resource.EBookResourceImpl;
 
 public class PUTTest extends JerseyTest {
 	private static final Logger LOGGER = Logger.getLogger(JerseyTest.class.getName());

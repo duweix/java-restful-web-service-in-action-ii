@@ -1,4 +1,4 @@
-package my.restful.my_first_webapp;
+package my.restful.my_first_webapp.resource;
 
 import java.util.concurrent.ConcurrentHashMap;
 

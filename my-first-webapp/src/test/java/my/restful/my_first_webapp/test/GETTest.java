@@ -8,7 +8,7 @@ import org.glassfish.jersey.test.JerseyTest;
 import org.junit.Assert;
 import org.junit.Test;
 
-import my.restful.my_first_webapp.EBookResourceImpl;
+import my.restful.my_first_webapp.resource.EBookResourceImpl;
 
 public class GETTest extends JerseyTest {
 
