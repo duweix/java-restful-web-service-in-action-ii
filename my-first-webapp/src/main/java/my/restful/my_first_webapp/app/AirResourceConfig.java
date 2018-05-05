@@ -9,6 +9,6 @@ import org.glassfish.jersey.server.ServerProperties;
 public class AirResourceConfig extends ResourceConfig {
 	public AirResourceConfig() {
 		property(ServerProperties.WADL_FEATURE_DISABLE, false);
-		packages("my.restful.my_first_webapp");
+		packages("my.restful.my_first_webapp.resource");
 	}
 }
